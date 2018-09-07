@@ -1,8 +1,8 @@
 build: clean
-	mvn package
+	./mvnw package
 
 clean:
-	mvn clean
+	./mvnw clean
 
 run:
 	java -jar ./target/java-boilerplate-1.0-SNAPSHOT-jar-with-dependencies.jar
